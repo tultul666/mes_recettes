@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés pour les recettes */
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Animations pour les cartes de recettes */
+.recipe-card {
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Style pour les titres de recettes */
+.recipe-title {
+  background: linear-gradient(to right, #ff7b7b, #ff9b9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
